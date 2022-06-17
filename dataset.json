@@ -1,0 +1,292 @@
+{
+    "intents": [{
+            "tag": "sapaan",
+            "patterns": ["hai", "halo", "tes","cek","hi", "Hello", "permisi"],
+            "responses": ["hai", "iya", "ada yang bisa saya bantu?","halo","monggo"],
+            "context": [""]
+        },
+        {
+            "tag": "salam",
+            "patterns": ["Assalamualaikum"],
+            "responses": ["Waalaikum Salam Warrahmatullahi Wabarakatuh"],
+            "context": [""]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": ["terimakasih", "sangat membantu", "terimakasih untuk informasinya"],
+            "responses": ["sama-sama", "senang bisa membantu anda", "dengan senang hati"],
+            "context": [""]
+        },
+        {
+            "tag": "",
+            "patterns": [" "],
+            "responses": ["maaf saya tidak bisa memahami kata-kata anda", "maaf bisa diulangi lagi pertanyaannya", "anda belum memberi pertanyaan"],
+            "context": [""]
+        },
+        {
+            "tag": "tanya",
+            "patterns": ["Apa yang bisa kamu lakukan?"],
+            "responses": ["Saya bisa membantu anda untuk menjawab beberapa perntanyaan tentang  informasi akademik"],
+            "context": [""]
+        },
+        {
+            "tag": "letak_kampus",
+            "patterns": ["dimana letak kampus IST AKPRIND","letak kampus","akprind dimana" ],
+            "responses": ["IST AKPRIND beralamat di Kompleks, Jl. Kalisahak Jl. Balapan No.28, Klitren, Gondokusuman, Yogyakarta City, Special Region of Yogyakarta 55222"],
+            "context": [""]
+        },
+        {
+            "tag": "status",
+            "patterns": ["Apakah IST AKPRIND perguruan tinggi negeri atau swasta","status" ],
+            "responses": ["IST AKPRIND adalah perguruan tinggi swasta yang terletak dikota Yogyakarta"],
+            "context": [""]
+        },
+        {
+            "tag": "alasan",
+            "patterns": ["Alasan memilih IST AKPRIND","alasan" ],
+            "responses": ["banyak jalur masuk yang menawarkan beasiswa atau potongan biaya uliah hingga lulus diploma dan sarjana dan mempunyai jurusan yang berprospek","kenapa akprind"],
+            "context": [""]
+        },
+        {
+            "tag": "daftar_ulang",
+            "patterns": ["bagaimana cara melakukan pendaftaran ulang ?","daftar ulang"],
+            "responses": ["datang ke kampus 1 IST AKPRIND di bagian Biro Administrasi Akademik dan melakukan daftar ulang"],
+            "context": [""]
+        },
+        {
+            "tag": "jumlah_kampus",
+            "patterns": ["IST AKPRIND ada berapa kampus","jumlah kampus"],
+            "responses": ["IST AKPRIND mempunyai 3 kampus yaitu: kampus I yang beralamat di Jl. Kalisahak No.28 Kompleks Balapan, Yogyakarta, kampus II di Jl. I Dewa Nyoman Oka No.32, Yogyakarta dan kampus III di Jl. Bimasakti No.3 Pengok, Yogyakarta "],
+            "context": [""]
+        },
+        {
+            "tag": "berita",
+            "patterns": ["dimana kita bisa melihat Berita terkini (seperti jadwal Webinar, Event-event tertentu), dan juga pengisian KRS","berita","dapat informasi darimana"],
+            "responses": ["anda bisa mengunjungi alamat website resmi IST AKPRIND di https://akprind.ac.id/ atau  Instagram di https://www.instagram.com/akprind_official/ untuk mendapatkan berita terupdate"],
+            "context": [""]
+        },
+        {
+            "tag": "informasi_krs",
+            "patterns": ["Dimana kita bisa mengetahui informasi terkait KRS?","informasi krs" ],
+            "responses": ["Anda dapat mengunjungi laman website https://krs.akademik.akprind.ac.id"],
+            "context": [""]
+        },
+        {
+            "tag": "informasi_mata_kuliah",
+            "patterns": ["bagaimana cara mengetahui informasi terkait mata kuliah?","informasi mata kuliah"],
+            "responses": ["informasi terkait masing-masing mata kuliah dapat anda lihat di laman website LMS IST AKPRIND di https://lms.akprind.ac.id/"],
+            "context": [""]
+        },
+        {
+            "tag": "tentang",
+            "patterns": ["dimana kita bisa mendapatkan informasi mengenai  tentang dosen, mahasiswa, struktur organisasi kampus, dll.","tentang kampus"],
+            "responses": ["Informasi tersebut bisa anda lihat di buku panduan akademik IST AKPRIND"],
+            "context": [""]
+        },
+        {
+            "tag":"prakuliah",
+            "patterns":["bagaimana cara mengetahui kegiatan pra kuliah?","prakuliah"],
+            "responses":["kegiatan prakuliah akan diinformasikan di grup angkatan mahasiswa baru"],
+            "context": [""]
+        },
+        {
+            "tag":"beasiswa",
+            "patterns":["bagaimana cara mendapatkan beasiswa ketika menjadi mahasiwa?","beasiswa"],
+            "responses":["untuk informasi beasiswa bisa dikonsultasikan ke ketua jurusan masing-masing"],
+            "context": [""]
+        },
+        {
+            "tag":"praktikum",
+            "patterns":["dimana kita bisa mendapatkan informasi mengenai praktikum?","praktikum"],
+            "responses":["informasi praktikum dapat di lihat di labratorium masing-masing mata kuliah"],
+            "context": [""]
+        },
+        {
+            "tag":"perlombaan",
+            "patterns":["informasi mengenai perlombaan biasanya ditemukan dimana?","perlombaan"],
+            "responses":["informasi tersebut dapat ditemukan di instagram resmi IST AKPRIND maupun web jurusan"],
+            "context": [""]
+        },
+        {
+            "tag":"sasidiwa",
+            "patterns":["apa itu sasidiwa?","sasidiwa"],
+            "responses":["sasidiwa kegiatan awal bagi setiap peserta didik yang menempuh jenjang perguruan tinggi"],
+            "context": [""]
+        },
+        {
+            "tag":"konversi",
+            "patterns":["apakah mata kuliah dan KKN bisa dikonversi dengan kegiatan magang dan stusi independen kampus merdeka","konversi"],
+            "responses":["program kampus merdeka dapat dikonversi ke mata kuliah dan KKN"],
+            "context": [""]
+        },
+        {
+            "tag":"uts",
+            "patterns":["apakah syarat mengikuti uts/uas?","uts", "uas"],
+            "responses":["melunasi pembayaran yang tertera pada bagan alir proses UTS/UAS dan minimal kehadiran 75 % untuk masing-maisng mata kuliah"],
+            "context": [""]
+        },
+        {
+            "tag":"cumlaude",
+            "patterns":["berapa syarat minimal ipk untuk meraih predikat cumlaude?","cumlaude"],
+            "responses":["ipk MIN 3.5"],
+            "context": [""]
+        },
+        {
+            "tag":"nilai",
+            "patterns":["Apakah nilai akhir C wajib mengulang mata kuliah?","nilai"],
+            "responses":["Tidak , jika nilai akhir C- maka wajib mengulang mata kuliah"],
+            "context": [""]
+        },
+        {
+            "tag":"remedial",
+            "patterns":["berapa nilai minimal untuk syarat mengikuti remedial?","remedial"],
+            "responses":["minimal nilai akhir B-"],
+            "context": [""]
+        },
+        {
+            "tag":"biaya_remedial",
+            "patterns":["berapa biaya untuk mengikuti remedial","biaya remedial"],
+            "responses":["Membayar biaya remedial sebesar : Rp. 50.000,-/SKS"],
+            "context": [""]
+        },
+        {
+            "tag":"nilai_max_remdial",
+            "patterns":["berapa nilai maksimal remdial?","nilai maksimal"],
+            "responses":["nilai maksimal remdial adalah B"],
+            "context": [""]
+        },
+        {
+            "tag":"nomor_rekening",
+            "patterns":["berapa nomor rekening untuk pembayaran akademik?","nomor rekening","pembayaran"],
+            "responses":["Bank BPD DIY No. Rek. 0011-1100-1544, atau Bank Mandiri No. Rek 13700-7773-3315 atas nama Yayasan Pembina Potensi Pembangunan"],
+            "context": [""]
+        },
+        {
+            "tag":"jadwal_ujian",
+            "patterns":["dimana kita bisa melihat jadwal ujian?","jadwal ujian","ujian"],
+            "responses":["info jadwal ujian dapat dilihat di laman https://akprind.ac.id/jadwal-ujian/"],
+            "context": [""]
+        },
+        {
+            "tag":"dispensasi",
+            "patterns":["Apakah ada dispensasi untuk pembayaran akademik sebelum ujian?","dispensasi"],
+            "responses":["dispensasi dapat di cek di laman https://akprind.ac.id/jadwal-ujian/"],
+            "context": [""]
+        },
+        {
+            "tag":"akreditasi",
+            "patterns":["Akreditasi jurusan dapat dilihat dimana ?","akreditasi"],
+            "responses":["Akreditasi jurusan dapat dilihat di link https://akprind.ac.id/akreditasi/"],
+            "context": [""]
+        },
+        {
+            "tag":"biaya",
+            "patterns":["berapa biaya SPP dan DPP","biaya"],
+            "responses":["untuk biaya akdemik dapat dilihat per jurusan di laman https://pmb.akprind.ac.id/brosur/"],
+            "context": [""]
+        },
+        {
+            "tag":"kontak",
+            "patterns":["Adakah nomor kontak yang dapat dihubungi terkait pembayaran akademik?","kontak"],
+            "responses":["bila ada kesulitan dalam melakukan pembayaran maka dapat menhubungi No. Kontak Biro Keuangan : 0877 2587 3081"],
+            "context": [""]
+        },
+        {
+            "tag":"syarat_sks",
+            "patterns":["berapa IPK minimum untuk mengambil mata kuliah 24 sks?","syarat sks"],
+            "responses":["IPK minimum 3.00 jika ingin mengambil 24 SKS"],
+            "context": [""]
+        },
+        {
+            "tag":"entry_krs",
+            "patterns":["Apakah setelah entry krs datanya masih bisa diubah bila sudah memasuki minggu pertama","entry krs"],
+            "responses":["data bisa diubah pada saat waktu perubahan krs diminggu ketiga"],
+            "context": [""]
+        },
+        {
+            "tag":"syarat_mata_kuliah",
+            "patterns":["Apakah ada syarat dalam memilih mata kuliah?","syarat mata kuliah"],
+            "responses":["untuk semester 1 dan 2 mata kuliah yang diambil masih di tentukan oleh kampus dan baru akan memilih sendiri pada pada semester 3"],
+            "context": [""]
+        },
+        {
+            "tag":"tidak_bayar",
+            "patterns":["Apa yang terjadi jika tidak membayar akademik sampe masa herregistrasi berakhir?","tidak bayar"],
+            "responses":["jika mahasiswa tidak melakukan herregistrasi diluar batas waktu yang tersedia maka data pra krs akan terhapus otomatis oleh sistem wajib mengajukan cuti dan membayar biaya yang telah ditentukan dalam bagan alir proses KRS"],
+            "context": [""]
+        },
+        {
+            "tag":"pin",
+            "patterns":["darimana kita bisa mendapatkan PIN untuk melakukan entry KRS?","pin"],
+            "responses":["PIN akan diperoleh ketika sudah mennyelesaikan proses herregistrasi"],
+            "context": [""]
+        },
+        {
+            "tag": "ukm",
+            "patterns": ["ada ukm apa saja?","ukm"],
+            "responses": ["UKM Robotika,UKM Sanggar 28 terkam,UKM Jamaah Al-Kautsar,keluarga mahasiswa katolik st stanislaus,PMK galilea,Keluarga Hindu dharma,KARISTA,kelompok studi linux,mapalista,Basket,pramista,koperasi mahasiswa,UKM sepakbola,volly,Shorinji Kempo,Pencak Silat,Catur,Penala"],
+            "context": [""]
+        },
+        {
+            "tag": "sks",
+            "patterns": ["apa itu sks?","sks"],
+            "responses": ["SKS adalah kependekan dari Satuan Kredit Semester yang merupakan beban studi pada setiap mata kuliah. SKS ini jumlahnya berlainan pada tiap mata kuliah, misalnya 2, 3, atau 4 SKS."],
+            "context": [""]
+        },
+        {
+            "tag": "ip",
+            "patterns": ["apa itu ip?","ip"],
+            "responses": ["IP adalah sistem penilaian yang diterapkan di kampus dan hasil penjumlahan semua nilai mata kuliah yang kamu selesaikan selama 1 semester."],
+            "context": [""]
+        },
+        {
+            "tag": "ipk",
+            "patterns": ["apa itu ipk?","ipk"],
+            "responses": [" IPK adalah hasil penggabungan nilai kamu selama semester 1 sampai semester akhir. Angka ini menunjukkan tingkat kesuksesan studi Pinters di perguruan tinggi dengan besaran nilai tertinggi adalah 4."],
+            "context": [""]
+        },
+        {
+            "tag": "krs_adalah",
+            "patterns": ["apa itu krs?","saya ingin tahu tentang krs","krs"],
+            "responses": ["KRS adalah Kartu Rencana Studi  yang mencantumkan daftar mata kuliah plus SKS yang akan diikuti oleh mahasiswa di semester yang akan datang"],
+            "context": [""]
+        },
+        {
+            "tag": "ruang_alumni",
+            "patterns": ["apakah ada ruang alumni?","ruang alumni"],
+            "responses": ["tidak ada"],
+            "context": [""]
+        },
+        {
+            "tag": "cuti_kuliah",
+            "patterns": ["apa itu cuti kuliah?","cuti"],
+            "responses": ["Cuti kuliah merupakan masa dimana mahasiswa tidak mengikuti kegiatan akademik sepanjang semester"],
+            "context": [""]
+        },
+        {
+            "tag": "syarat_cuti_kuliah",
+            "patterns": ["apa saja syarat cuti kuliah","syarat cuti kuliah","syarat cuti"],
+            "responses": ["Aturan yang berhubungan dengan cuti akademik adalah sebagai berikut:1) Cuti Akademik diberikan kepada mahasiswa yang telah mengikuti kegiatan akademik sekurang-kurangnya 2 (dua) semester dan harus diajukan di awal semester. 2) Cuti akademik diberikan paling lama untuk jangka waktu 2 (dua) semester, baik berurutan maupun tidak."],
+            "context": [""]
+        },
+        {
+            "tag": "cara_ikut_ukm",
+            "patterns": ["bagaimana cara mendaftar ukm?","cara ikut ukm"],
+            "responses": ["datang langsung ke ruang sekretariat ukm"],
+            "context": [""]
+        },
+        {
+            "tag": "skpi",
+            "patterns": ["Apa itu SKPI?","skpi"],
+            "responses": ["SKPI merupakan surat pernyataan resmi yang dikeluarkan oleh perguruan tinggi yang berisi informasi tentang pencapaian akademik atau kualifikasi dari lulusan pendidikan tinggi bergelar"],
+            "context": [""]
+        },
+        {
+            "tag": "jalur_beasiswa",
+            "patterns": ["Apakah jalur beasiswa sampai lulus wajib ikut ukm atau hmj?","jalur beasiswa"],
+            "responses": ["mahasiwa yang merupakan penerima beasiswa sampai lulus wajib aktif di kegiatan kampus"],
+            "context": [""]
+        }
+        
+    ]
+}
