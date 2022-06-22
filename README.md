@@ -14,4 +14,6 @@
 
 
 ## demo program ketika telah running
+Tampilan website
+https://github.com/edi2001/proyek-akhir-chatbot/issues/1#issue-1279472732
 pencet ikon chat pada pojok kanan bawah maka akan muncul pop up chatbot
