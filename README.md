@@ -15,6 +15,6 @@
 
 ## demo program ketika telah running
 Tampilan website
-![Uploading 1.PNG…]()
+![1](https://user-images.githubusercontent.com/77876218/174941194-1340fc4d-8592-4c8f-8d75-27e8977e9e68.PNG)
 
 pencet ikon chat pada pojok kanan bawah maka akan muncul pop up chatbot
