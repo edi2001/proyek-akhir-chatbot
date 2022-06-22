@@ -1,7 +1,7 @@
 # project-akhir-studi-independen(Chatbot Akademik AKPRIND)
 
 
-# Cara running program secara lokal :
+## Cara running program secara lokal :
 1. install python dari web resmi https://www.python.org/
 2. clone repositori / download langsung code program tersebut
 3. Buka terminal/cmd dan masuk ke direktori code yang telah di download
@@ -10,3 +10,7 @@
 6. buka visual studio code lewat terminal dengan mengetik code .
 7. running file trainingModel_chatbot.py
 8. running file deployment.py
+9. Klik link http://127.0.0.1:5000/ pada proses running
+
+
+## demo program ketika telah running
