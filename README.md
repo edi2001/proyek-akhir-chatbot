@@ -1,5 +1,13 @@
 # project-akhir-studi-independen(Chatbot Akademik AKPRIND)
 
+Kelompok 2 cactus :
+
+Eka Nur A'ini
+Muhammad Edi
+Fajri Aditiya Putra
+Yayan Rohdiyanto
+Dhea Putri Aprilyana
+
 
 ## Cara running program secara lokal :
 1. install python dari web resmi https://www.python.org/
